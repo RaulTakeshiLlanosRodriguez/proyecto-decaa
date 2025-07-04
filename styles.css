@@ -76,9 +76,6 @@ body {
   font-weight: 600;
 }
 
-
-
-/* Submenús ocultos por defecto */
 .submenu {
   position: absolute;
   top: 100%;
@@ -131,6 +128,65 @@ body {
 
 .has-submenu:hover .submenu {
   display: block;
+}
+
+.indicadores {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.circles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.circle-box {
+  width: 150px;
+  position: relative;
+}
+
+.circle-box svg {
+  width: 140px;
+  height: 140px;
+  transform: rotate(-90deg);
+}
+
+circle {
+  fill: none;
+  stroke-width: 10;
+}
+
+circle:nth-child(1) {
+  stroke: #e0e0e0; /* fondo base gris */
+}
+
+.progress {
+  stroke-dasharray: 408;
+  stroke-dashoffset: 408;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 2s ease;
+}
+
+.number {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  transform: rotate(0deg);
+  text-align: center;
+}
+
+.circle-box p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #222;
 }
 
 

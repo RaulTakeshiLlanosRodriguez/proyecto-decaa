@@ -25,29 +25,72 @@
         <li class="has-submenu">
             <a href="#">Calidad</a>
             <ul class="submenu">
-                <li><a href="#">DECAA</a></li>
-                <li><a href="#">Oficinas</a></li>
+                <li><a href="./menu-calidad/decaa.html">DECAA</a></li>
+                <li><a href="./menu-calidad/oficinas.html">Oficinas</a></li>
             </ul>
         </li>
         <li class="has-submenu">
             <a href="#">Mejora Continua</a>
             <ul class="submenu">
-                <li><a href="#">Acreditación</a></li>
-                <li><a href="#">Cómites de calidad</a></li>
-                <li><a href="#">Licenciamiento</a></li>
+                <li><a href="./menu-mejora-continua/acreditacion.html">Acreditación</a></li>
+                <li><a href="./menu-mejora-continua/comites-de-calidad.html">Cómites de calidad</a></li>
+                <li><a href="./menu-mejora-continua/licenciamiento.html">Licenciamiento</a></li>
             </ul>
         </li>
         <li class="has-submenu">
             <a href="#">Investigaciones</a>
             <ul class="submenu">
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Publicaciones</a></li>
+                <li><a href="./menu-investigaciones/proyectos.html">Proyectos</a></li>
+                <li><a href="./menu-investigaciones/publicaciones.html">Publicaciones</a></li>
             </ul>
         </li>
         </ul>
         </nav>
   </header>
   <div class="franja-inferior"></div>
+
+  <section class="indicadores">
+  <h2>Avances en Educación con Calidad</h2>
+
+  <div class="circles-container">
+    <div class="circle-box" data-target="65" data-color="#c65870">
+      <svg>
+        <circle cx="70" cy="70" r="65"></circle>
+        <circle cx="70" cy="70" r="65" class="progress"></circle>
+      </svg>
+      <div class="number">0</div>
+      <p>Comités de Calidad<br><strong>Pregrado</strong></p>
+    </div>
+
+    <div class="circle-box" data-target="100" data-color="#c65870">
+      <svg>
+        <circle cx="70" cy="70" r="65"></circle>
+        <circle cx="70" cy="70" r="65" class="progress"></circle>
+      </svg>
+      <div class="number">0</div>
+      <p>Comités de Calidad<br><strong>Posgrado</strong></p>
+    </div>
+
+    <div class="circle-box" data-target="5" data-color="#c65870">
+      <svg>
+        <circle cx="70" cy="70" r="65"></circle>
+        <circle cx="70" cy="70" r="65" class="progress"></circle>
+      </svg>
+      <div class="number">0</div>
+      <p>Programas con<br><strong>Acreditación Nacional</strong></p>
+    </div>
+
+    <div class="circle-box" data-target="17" data-color="#c65870">
+      <svg>
+        <circle cx="70" cy="70" r="65"></circle>
+        <circle cx="70" cy="70" r="65" class="progress"></circle>
+      </svg>
+      <div class="number">0</div>
+      <p>Programas con<br><strong>Acreditación Internacional</strong></p>
+    </div>
+  </div>
+</section>
+
 
   <footer class="footer">
   <div class="footer-bottom">
@@ -78,6 +121,32 @@
         link.parentElement.classList.toggle('open');
       }
     });
+  });
+
+   const boxes = document.querySelectorAll(".circle-box");
+
+  boxes.forEach(box => {
+    const number = box.querySelector(".number");
+    const progress = box.querySelector(".progress");
+    const target = +box.dataset.target;
+    const color = box.dataset.color;
+
+    progress.style.stroke = color;
+
+    let count = 0;
+    const duration = 2000;
+    const stepTime = Math.floor(duration / target);
+
+    // animar número
+    const counter = setInterval(() => {
+      count++;
+      number.textContent = count;
+      if (count >= target) clearInterval(counter);
+    }, stepTime);
+
+    // animar trazo circular
+    const offset = 408 - (408 * target) / 100;
+    progress.style.strokeDashoffset = offset;
   });
 </script>
 
