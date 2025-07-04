@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DECAA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+      <div class="logo-area">
+        <img src="./assets/logo-uns.png" alt="Logo UNS">
+        <div class="office-name">
+            DIRECCIÓN DE EVALUACIÓN DE LA CALIDAD ACADÉMICA Y ACREDITACIÓN
+        </div>
+      </div>
+      <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
+        <nav class="main-nav" id="main-nav">
+        <ul class="nav-menu">
+            <li class="has-submenu">
+            <a href="#">Inicio</a>
+        </li>
+        <li class="has-submenu">
+            <a href="#">Calidad</a>
+            <ul class="submenu">
+                <li><a href="#">DECAA</a></li>
+                <li><a href="#">Oficinas</a></li>
+            </ul>
+        </li>
+        <li class="has-submenu">
+            <a href="#">Mejora Continua</a>
+            <ul class="submenu">
+                <li><a href="#">Acreditación</a></li>
+                <li><a href="#">Cómites de calidad</a></li>
+                <li><a href="#">Licenciamiento</a></li>
+            </ul>
+        </li>
+        <li class="has-submenu">
+            <a href="#">Investigaciones</a>
+            <ul class="submenu">
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Publicaciones</a></li>
+            </ul>
+        </li>
+        </ul>
+        </nav>
+  </header>
+  <div class="franja-inferior"></div>
+
+  <footer class="footer">
+  <div class="footer-bottom">
+    &copy; 2025 Dirección de Evaluación de la Calidad Académica y Acreditación - UNS
+  </div>
+</footer>
+
+
+  <script>
+
+  document.getElementById("menu-toggle").addEventListener("click", function () {
+    document.getElementById("main-nav").classList.toggle("activo");
+  });
+
+   document.querySelectorAll('.has-submenu > a').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      if (window.innerWidth <= 768) {
+        e.preventDefault();
+
+        // Cerrar todos los submenús
+        document.querySelectorAll('.has-submenu').forEach(function(item) {
+          if (item !== link.parentElement) {
+            item.classList.remove('open');
+          }
+        });
+
+        // Alternar el actual
+        link.parentElement.classList.toggle('open');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
