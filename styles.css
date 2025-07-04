@@ -190,6 +190,50 @@ circle:nth-child(1) {
 }
 
 
+.contenido-container {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.sidebar {
+  min-width: 200px;
+  border-right: 2px solid #eee;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: #d82f4b;
+  font-weight: 500;
+}
+
+.sidebar a.active {
+  font-weight: bold;
+  border-left: 4px solid #d82f4b;
+  background-color: #f9f9f9;
+}
+
+.contenido {
+  flex: 1;
+}
+
+.contenido-item {
+  display: none;
+}
+
+.contenido-item.active {
+  display: block;
+}
+
+
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;

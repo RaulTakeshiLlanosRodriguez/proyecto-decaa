@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="../js/main-simple.js"></script>
 </head>
 <body>
     <header class="header">
@@ -40,7 +41,6 @@
         <li class="has-submenu">
             <a href="#">Investigaciones</a>
             <ul class="submenu">
-                <li><a href="../menu-investigaciones/proyectos.html">Proyectos</a></li>
                 <li><a href="../menu-investigaciones/publicaciones.html">Publicaciones</a></li>
             </ul>
         </li>
@@ -48,37 +48,44 @@
         </nav>
   </header>
   <div class="franja-inferior"></div>
-  <section>
-    <h2>DECAA</h2>
-  </section>
+  <section class="contenido-container">
+  <aside class="sidebar">
+    <ul>
+      <li><a href="#" data-target="historia" class="active">Sobre Nosotros</a></li>
+      <li><a href="#" data-target="talento">Talento Humano</a></li>
+    </ul>
+  </aside>
+
+  <article class="contenido">
+    <div id="historia" class="contenido-item active">
+      <h2>Dirección de Evaluación de la Calidad Académica y Acreditación (DECAA)</h2>
+      <p><strong>Dra. Rommy Kelly Mas Sandoval</strong><br>Directora (e) de la Dirección de Evaluación de la Calidad Académica y Acreditación </p>
+      <p><strong>Presentación</strong></p>
+      <p>El proceso de acreditación de la calidad educativa de las unidades académicas de la Universidad es voluntario. Se desarrolla a traves de normas y procedimientos estructutados e integrados funcionalmente.</p>
+      <p>Los criterios y estándares que se determinen para su cumplimiento, tienen como objetivo mejorar la calidad del servicio educativo. Excepcionalmente, la acreditación de algunas carreras será obligatoria por disposición legal expresa.</p>
+      <p>El modelo de calidad para la acreditación de las escuelas profesionales y de la institución se rige por el enfoque sistémico, y por los principios de calidad total, como un marco general; a travez del cual se representan todas las interacciones de los procesos que tienen lugar en la Universidad y que le permite alinearse al cumplimiento de los compromisos adquiridos por ella misma con la sociedad, en cuanto al conocimiento creado, los profesionales formados y los bienes y servicios entregados a la comunidad.</p>
+      <p>El modelo de calidad de la Universidad se constituye en el referente con el cual se contraste la Universidad o Unidad académica para determinar su calidad. La primera autoevaluación define la "línea base de calidad", a partir de la cual se plantea el plan de mejora pertinente.</p>
+      <p>Los principios que rigen los procesos de evaluación y acreditación de la Universidad son: transparencia, eficacia, responsabilidad, participación, objetividad e imparcialidad, ética, periodicidad, adecuacion, coherencia, eficiencia, equidad, idoneridad, integridad, pertinencia y universalidad.</p>
+      <p>La Universidad cuenta con un sistema de gestión de la calidad de sus procesos: administración, posicionamiento, enseñanza-aprendizaje, investigación, extensión universitaria y proyección social (extensión social y responsabilidad social)
+Asimismo, cuenta con un sistema de información y comunicación transversal a todo nuvel de su organizacion a partir del cual evalúa sus procesos existentes.</p>
+      <p><strong>Misión de la OCCAA</strong></p>
+      <p>Brindar formación profesional humanística, científica y tecnológica a los estudiantes, con calidad y responsabilidad social y ambiental.</p>
+      <p><strong>Misión de la OCCAA</strong></p>
+      <p>Todos desarrollan su potencial desde la primera infancia, acceden al mundo letrado, resuelven problemas, practican valores y saben seguir aprendiendo, se asumen ciudadanos con derechos y responsabilidades y contribuyen al desarrollo de sus comunidades y del país combinando su capital cultural y natural con avances mundiales.</p>
+      <p><strong>Funciones generales</strong></p>
+    </div>
+
+    <div id="talento" class="contenido-item">
+      <h2>Talento Humano</h2>
+      <p>Aquí se listan los integrantes u organigrama, etc.</p>
+    </div>
+  </article>
+</section>
+
   <footer class="footer">
   <div class="footer-bottom">
     &copy; 2025 Dirección de Evaluación de la Calidad Académica y Acreditación - UNS
   </div>
 </footer>
-<script>
-    document.getElementById("menu-toggle").addEventListener("click", function () {
-    document.getElementById("main-nav").classList.toggle("activo");
-  });
-
-   document.querySelectorAll('.has-submenu > a').forEach(function(link) {
-    link.addEventListener('click', function(e) {
-      if (window.innerWidth <= 768) {
-        e.preventDefault();
-
-        // Cerrar todos los submenús
-        document.querySelectorAll('.has-submenu').forEach(function(item) {
-          if (item !== link.parentElement) {
-            item.classList.remove('open');
-          }
-        });
-
-        // Alternar el actual
-        link.parentElement.classList.toggle('open');
-      }
-    });
-  });
-
-</script>
 </body>
 </html>

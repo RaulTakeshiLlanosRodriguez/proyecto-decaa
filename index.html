@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="./js/main.js"></script>
 </head>
 <body>
     <header class="header">
@@ -40,7 +41,6 @@
         <li class="has-submenu">
             <a href="#">Investigaciones</a>
             <ul class="submenu">
-                <li><a href="./menu-investigaciones/proyectos.html">Proyectos</a></li>
                 <li><a href="./menu-investigaciones/publicaciones.html">Publicaciones</a></li>
             </ul>
         </li>
@@ -97,58 +97,5 @@
     &copy; 2025 Dirección de Evaluación de la Calidad Académica y Acreditación - UNS
   </div>
 </footer>
-
-
-  <script>
-
-  document.getElementById("menu-toggle").addEventListener("click", function () {
-    document.getElementById("main-nav").classList.toggle("activo");
-  });
-
-   document.querySelectorAll('.has-submenu > a').forEach(function(link) {
-    link.addEventListener('click', function(e) {
-      if (window.innerWidth <= 768) {
-        e.preventDefault();
-
-        // Cerrar todos los submenús
-        document.querySelectorAll('.has-submenu').forEach(function(item) {
-          if (item !== link.parentElement) {
-            item.classList.remove('open');
-          }
-        });
-
-        // Alternar el actual
-        link.parentElement.classList.toggle('open');
-      }
-    });
-  });
-
-   const boxes = document.querySelectorAll(".circle-box");
-
-  boxes.forEach(box => {
-    const number = box.querySelector(".number");
-    const progress = box.querySelector(".progress");
-    const target = +box.dataset.target;
-    const color = box.dataset.color;
-
-    progress.style.stroke = color;
-
-    let count = 0;
-    const duration = 2000;
-    const stepTime = Math.floor(duration / target);
-
-    // animar número
-    const counter = setInterval(() => {
-      count++;
-      number.textContent = count;
-      if (count >= target) clearInterval(counter);
-    }, stepTime);
-
-    // animar trazo circular
-    const offset = 408 - (408 * target) / 100;
-    progress.style.strokeDashoffset = offset;
-  });
-</script>
-
 </body>
 </html>
