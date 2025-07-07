@@ -1,6 +1,6 @@
-export function indicadores(){
-    const boxes = document.querySelectorAll(".circle-box");
-    boxes.forEach(box => {
+export function indicadores() {
+  const boxes = document.querySelectorAll(".circle-box");
+  boxes.forEach(box => {
     const number = box.querySelector(".number");
     const progress = box.querySelector(".progress");
     const target = +box.dataset.target;
@@ -11,8 +11,6 @@ export function indicadores(){
     let count = 0;
     const duration = 2000;
     const stepTime = Math.floor(duration / target);
-
-    // animar número
     const counter = setInterval(() => {
       count++;
       number.textContent = count;

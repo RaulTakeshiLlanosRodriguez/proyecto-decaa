@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -9,7 +9,7 @@ body {
   justify-content: space-between;
   background-color: white;
   padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   flex-wrap: wrap;
 }
 
@@ -87,7 +87,7 @@ body {
   display: none;
   min-width: 180px;
   z-index: 999;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .submenu li a {
@@ -116,13 +116,13 @@ body {
 .footer {
   background-color: #d82f4b;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .footer-bottom {
   text-align: center;
   font-size: 13px;
-  border-top: 1px solid rgba(255,255,255,0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 10px;
 }
 
@@ -133,7 +133,7 @@ body {
 .indicadores {
   text-align: center;
   padding: 40px 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .circles-container {
@@ -189,10 +189,9 @@ circle:nth-child(1) {
   color: #222;
 }
 
-
 .contenido-container {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   padding: 20px;
 }
 
@@ -245,7 +244,7 @@ circle:nth-child(1) {
   border-left: 5px solid #d82f4b;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
 }
 
@@ -344,7 +343,7 @@ circle:nth-child(1) {
   max-width: 1000px;
   margin: 3rem auto;
   padding: 0 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .titulo-seccion {
@@ -376,14 +375,14 @@ circle:nth-child(1) {
   border: 1px solid #eee;
   padding: 1rem 1.5rem;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
   transition: all 0.3s ease;
 }
 
 .lista-comunidades.mejorada li:hover {
   background-color: #d82f4b;
   border-color: #d82f4b;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .lista-comunidades.mejorada li:hover a {
@@ -438,7 +437,7 @@ circle:nth-child(1) {
   display: flex;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   margin-bottom: 2rem;
   overflow: hidden;
   transition: transform 0.2s ease;
@@ -452,7 +451,7 @@ circle:nth-child(1) {
   object-fit: cover;
 }
 .contenido {
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -495,20 +494,28 @@ circle:nth-child(1) {
 }
 
 @keyframes slideAuto {
-  0%   { transform: translateX(0%); }
-  30%  { transform: translateX(0%); }
-  35%  { transform: translateX(-100%); }
-  65%  { transform: translateX(-100%); }
-  70%  { transform: translateX(-200%); }
-  95%  { transform: translateX(-200%); }
-  100% { transform: translateX(0%); }
+  0% {
+    transform: translateX(0%);
+  }
+  30% {
+    transform: translateX(0%);
+  }
+  35% {
+    transform: translateX(-100%);
+  }
+  65% {
+    transform: translateX(-100%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+  95% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
-
-
-
-
-
-
 
 @media (max-width: 768px) {
   .menu-toggle {
@@ -538,7 +545,7 @@ circle:nth-child(1) {
     max-width: 100px;
   }
 
-   .main-nav {
+  .main-nav {
     flex-direction: column;
     gap: 0;
     width: 100%;
@@ -559,11 +566,11 @@ circle:nth-child(1) {
     padding: 12px 15px;
     color: #d82f4b;
     width: 100%;
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .submenu {
-    display: none;
+    display: none !important;
     background-color: #bb213a;
     width: 100%;
     position: static;
@@ -575,8 +582,8 @@ circle:nth-child(1) {
     color: white;
   }
 
-  .has-submenu.open .submenu {
-    display: block;
+  .has-submenu.open > .submenu {
+    display: block !important;
   }
 
   .contenido-container {
@@ -585,7 +592,6 @@ circle:nth-child(1) {
 
   .sidebar {
     width: 100%;
-    margin-bottom: 20px;
   }
 
   .mision-vision-container {
@@ -599,5 +605,10 @@ circle:nth-child(1) {
   .presentacion-container,
   .funciones-container {
     padding: 20px;
+  }
+
+  .slider-solo-imagenes,
+  .slider-track img {
+    height: 250px;
   }
 }

@@ -1,5 +1,5 @@
-export function contenido(){
-    document.querySelectorAll('.sidebar a').forEach(link => {
+export function contenido() {
+  document.querySelectorAll('.sidebar a').forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
 

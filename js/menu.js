@@ -1,20 +1,28 @@
-export function initMenu(){
-    document.getElementById("menu-toggle").addEventListener("click", function () {
+export function initMenu() {
+  document.getElementById("menu-toggle").addEventListener("click", function () {
     document.getElementById("main-nav").classList.toggle("activo");
   });
 
-   document.querySelectorAll('.has-submenu > a').forEach(function(link) {
-    link.addEventListener('click', function(e) {
+  document.querySelectorAll('.has-submenu > a').forEach(function (link) {
+    link.addEventListener('click', function (e) {
       if (window.innerWidth <= 768) {
-        e.preventDefault();
+        const parent = link.parentElement;
+        const hasRealSubmenu = parent.querySelector('.submenu');
+        const href = link.getAttribute('href');
 
-        document.querySelectorAll('.has-submenu').forEach(function(item) {
-          if (item !== link.parentElement) {
+        if (href == "#" || hasRealSubmenu) {
+          e.preventDefault();
+
+          const isOpen = parent.classList.contains('open');
+
+          document.querySelectorAll('.has-submenu').forEach(function (item) {
             item.classList.remove('open');
-          }
-        });
+          });
 
-        link.parentElement.classList.toggle('open');
+          if (!isOpen) {
+            parent.classList.add('open');
+          }
+        }
       }
     });
   });
