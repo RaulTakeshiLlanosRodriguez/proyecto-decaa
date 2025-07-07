@@ -1,0 +1,62 @@
+[
+    {
+        "docente": "Ana Torres",
+        "anio": 2023,
+        "titulo": "Impacto de la inteligencia artificial en la educación superior de la ciudad de Nuevo Chimbote",
+        "enlace": "https://repositorio.unmsm.edu.pe/handle/20.500.12672/19171"
+    },
+    {
+        "docente": "Luis García",
+        "anio": 2022,
+        "titulo": "Análisis del aprendizaje autónomo en entornos digitales utilizando metodologías ágiles para la ciudad de Casma",
+        "enlace": "https://repositorio.ucsp.edu.pe/handle/20.500.12590/18183"
+    },
+    {
+        "docente": "María Pérez",
+        "anio": 2021,
+        "titulo": "Evaluación de competencias digitales en docentes universitarios",
+        "enlace": "https://repositorio.uta.edu.ec/handle/123456789/37387"
+    },
+    {
+        "docente": "Carlos Ramírez",
+        "anio": 2020,
+        "titulo": "Tecnologías móviles en la educación matemática",
+        "enlace": "https://repositorio.une.edu.pe/handle/UNE/5072"
+    },
+    {
+        "docente": "Diana López",
+        "anio": 2023,
+        "titulo": "Gamificación en la enseñanza de historia en secundaria",
+        "enlace": "https://repositorio.ucv.edu.pe/handle/20.500.12692/112601"
+    },
+    {
+        "docente": "Eduardo Salazar",
+        "anio": 2022,
+        "titulo": "Uso de plataformas virtuales en la docencia universitaria",
+        "enlace": "https://repositorio.undac.edu.pe/handle/20.500.13032/3017"
+    },
+    {
+        "docente": "Julia Fernández",
+        "anio": 2021,
+        "titulo": "Competencias investigativas en estudiantes de posgrado",
+        "enlace": "https://repositorio.upn.edu.pe/handle/11537/28855"
+    },
+    {
+        "docente": "Miguel Ríos",
+        "anio": 2020,
+        "titulo": "Aprendizaje colaborativo mediante herramientas digitales",
+        "enlace": "https://repositorio.unfv.edu.pe/handle/20.500.13084/6347"
+    },
+    {
+        "docente": "Elena Vargas",
+        "anio": 2023,
+        "titulo": "Implementación de recursos educativos abiertos",
+        "enlace": "https://repositorio.ucontinental.edu.pe/handle/20.500.12394/14197"
+    },
+    {
+        "docente": "Fernando Medina",
+        "anio": 2022,
+        "titulo": "Diseño instruccional para cursos híbridos",
+        "enlace": "https://repositorio.utp.edu.pe/handle/20.500.12867/6543"
+    }
+]

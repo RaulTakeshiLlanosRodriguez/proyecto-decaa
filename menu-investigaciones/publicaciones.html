@@ -51,71 +51,22 @@
     </nav>
   </header>
   <div class="franja-inferior"></div>
-  <section class="repositorio-container">
-    <h2 class="titulo-seccion">Investigaciones de Docentes</h2>
-    <p class="descripcion-seccion">Explora las investigaciones realizadas por los docentes de la Universidad Nacional
-      del Santa</p>
+<section class="busqueda-filtros">
+  <input type="text" id="filtro-docente" placeholder="Buscar por docente...">
+  <input type="text" id="filtro-titulo" placeholder="Buscar por título...">
+  <select id="filtro-anio">
+    <option value="">Todos los años</option>
+  </select>
+</section>
 
-    <ul class="lista-comunidades mejorada">
-      <li>
-        <a href="#">
-          <i class="fas fa-chalkboard-teacher"></i>
-          Escuela de Formación y Capacitación Profesional - EFCAP
-          <span>[5]</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-graduation-cap"></i>
-          Escuela de Post Grado
-          <span>[471]</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-clipboard-check"></i>
-          Evaluación
-          <span>[2]</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-flask"></i>
-          Facultad de Ciencias
-          <span>[582]</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-book"></i>
-          Facultad de Educación y Humanidades
-          <span>[809]</span>
-        </a>
-      </li>
-      <li>
-        <a href="facultad-ingenieria.html">
-          <i class="fas fa-cogs"></i>
-          Facultad de Ingeniería
-          <span>[1151]</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-user-edit"></i>
-          Investigaciones de Docentes
-          <span>[0]</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-file-alt"></i>
-          Trabajo de suficiencia profesional
-          <span>[0]</span>
-        </a>
-      </li>
-    </ul>
+<section id="listado-publicaciones" class="listado-publicaciones"></section>
 
-  </section>
+<div class="paginacion">
+  <button id="prev-page">Anterior</button>
+  <span id="pagina-actual">1</span>
+  <button id="next-page">Siguiente</button>
+</div>
+
 
 
   <footer class="footer">
@@ -123,6 +74,7 @@
       &copy; 2025 Dirección de Evaluación de la Calidad Académica y Acreditación - UNS
     </div>
   </footer>
+  <script src="../js/docente-load.js"></script>
 </body>
 
 </html>
