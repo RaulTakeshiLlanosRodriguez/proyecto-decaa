@@ -249,7 +249,6 @@ circle:nth-child(1) {
 
 .contenido-item ul{
   list-style-type: disc;
-  padding-left: 1.5rem;
 }
 
 .mision-vision-container {
@@ -362,23 +361,40 @@ circle:nth-child(1) {
 
 /*seccion filtros*/
 
-.busqueda-filtros {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  margin: 2rem auto;
-  max-width: 1000px;
+.contenedor-filtros {
+  margin: 30px auto;
+  max-width: 960px;
+  text-align: center;
 }
 
-.busqueda-filtros input,
-.busqueda-filtros select {
-  padding: 0.7rem 1rem;
-  font-size: 1rem;
-  border-radius: 8px;
+.contenedor-filtros h2 {
+  font-size: 24px;
+  color: #d82f4b;
+  margin-bottom: 20px;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.filtros select,
+.filtros input {
+  padding: 10px 15px;
   border: 1px solid #ccc;
-  width: 100%;
-  max-width: 300px;
+  border-radius: 8px;
+  font-size: 14px;
+  min-width: 200px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.filtros select:focus,
+.filtros input:focus {
+  border-color: #d82f4b;
 }
 /*seccion publicaciones*/
 .listado-publicaciones {
@@ -561,6 +577,33 @@ circle:nth-child(1) {
     transform: translateX(0%);
   }
 }
+
+/*seccion filtro facultad*/
+.etiqueta-carrera {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.etiqueta-carrera.guinda {
+  background-color: #860c20ef;
+  color: white;
+}
+
+.etiqueta-carrera.celeste {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.etiqueta-carrera.verde {
+  background-color: #4caf50;
+  color: white;
+}
+
 
 /*seccion responsive*/
 @media (max-width: 768px) {
