@@ -37,7 +37,6 @@
                     <ul class="submenu">
                         <li><a href="acreditacion.html">Acreditación</a></li>
                         <li><a href="comites-de-calidad.html">Cómites de calidad</a></li>
-                        <li><a href="licenciamiento.html">Licenciamiento</a></li>
                     </ul>
                 </li>
                 <li class="has-submenu">
@@ -50,14 +49,30 @@
         </nav>
     </header>
     <div class="franja-inferior"></div>
-    <section>
-        <h2>Comites de calidad</h2>
+    <section class="comites-container">
+        <aside class="sidebar-comites">
+            <ul>
+                <li><a href="#" data-target="comites" class="active">Comités</a></li>
+            </ul>
+        </aside>
+        <article class="contenido-comites">
+            <div id="loader-comites" class="loader">
+                <div class="spinner"></div>
+                <p>Cargando...</p>
+            </div>
+
+            <div id="comites" class="contenido-comite-item active">
+                <h2 class="titulo-comites">Comités de Calidad de Programas de Estudio</h2>
+                <div id="comites-container"></div>
+            </div>
+        </article>
     </section>
     <footer class="footer">
         <div class="footer-bottom">
             &copy; 2025 Dirección de Evaluación de la Calidad Académica y Acreditación - UNS
         </div>
     </footer>
+    <script src="/js/comites-load.js"></script>
 </body>
 
 </html>

@@ -1,107 +1,74 @@
 [
   {
-    "docente": "Ana Torres",
+    "docente": "Dra. Jessica Natalí Gallardo Ramírez",
     "anio": 2023,
-    "titulo": "Impacto de la inteligencia artificial en la educación superior de la ciudad de Nuevo Chimbote",
-    "carrera": "Ingeniería de Sistemas",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
-  },
-  {
-    "docente": "Eduardo Salazar",
-    "anio": 2022,
-    "titulo": "Uso de plataformas virtuales en la docencia universitaria",
+    "titulo": "PRÁCTICA PRE PROFESIONAL, SEGÚN NORMA ISO 21001, EN UN PROGRAMA DE ESTUDIOS DE UNA UNIVERSIDAD PÚBLICA PERUANA",
     "carrera": "Educación Inicial",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
+    "enlace": "http://revistas.usat.edu.pe/index.php/educare/article/view/777/1638?download=pdf",
+    "tipo": "articulo"
   },
   {
-    "docente": "Lucía Ramos",
-    "anio": 2021,
-    "titulo": "Estrategias didácticas para la enseñanza de las ciencias",
-    "carrera": "Ciencias Biológicas",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
-  },
-  {
-    "docente": "Carlos Huamán",
+    "docente": "Dra. María Magdalena Huerta Flores",
     "anio": 2023,
-    "titulo": "Optimización de procesos industriales con IA",
-    "carrera": "Ingeniería Industrial",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
+    "titulo": "PROPUESTAS PEDAGOGICAS PARA LA FORMACION DE LA PERSONALIDAD DE LOS NIÑOS DE EDUCACION INICIAL EN LA UGEL SANTA",
+    "carrera": "Educación Inicial",
+    "enlace": "https://plataformaeduca.org/wp-content/uploads/2024/03/EBOOK-ACTAS-EDUCA-2024-correcto-3.pdf",
+    "tipo": "libro"
   },
   {
-    "docente": "María Quispe",
-    "anio": 2020,
-    "titulo": "Inclusión educativa en zonas rurales",
-    "carrera": "Educación Intercultural Bilingüe",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
-  },
-  {
-    "docente": "Pedro Luján",
-    "anio": 2021,
-    "titulo": "Aplicación de la robótica en secundaria",
-    "carrera": "Ingeniería Electrónica",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
-  },
-  {
-    "docente": "Diana Flores",
-    "anio": 2023,
-    "titulo": "Programas de lectura crítica en la universidad",
-    "carrera": "Educación Secundaria",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
-  },
-  {
-    "docente": "José Paredes",
-    "anio": 2022,
-    "titulo": "Modelado matemático aplicado a la biotecnología",
-    "carrera": "Ciencias Matemáticas",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
-  },
-  {
-    "docente": "Luisa Ramírez",
-    "anio": 2023,
-    "titulo": "Análisis del impacto ambiental en proyectos mineros",
-    "carrera": "Ingeniería Ambiental",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
-  },
-  {
-    "docente": "Fernando Gómez",
-    "anio": 2021,
-    "titulo": "Gamificación como herramienta pedagógica",
-    "carrera": "Educación Primaria",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
-  },
-  {
-    "docente": "Pedro Luján",
+    "docente": "Dra. Jessica Natalí Gallardo Ramírez",
     "anio": 2024,
-    "titulo": "Aplicación de la robótica en secundaria II",
-    "carrera": "Ingeniería Electrónica",
-    "enlace": "hhttps://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
+    "titulo": "LIDERAZGO TRANSFORMACIONAL COMO COMPROMISO DE CAMBIO. UNA REVISIÓN SISTEMÁTICA DE LA LITERATURA",
+    "carrera": "Educación Inicial",
+    "enlace": "https://www.interciencia.net/wp-content/uploads/2024/05/03_6995_A_Gallardo_v49n5_8.pdf",
+    "tipo": "articulo"
   },
   {
-    "docente": "Diana Flores",
-    "anio": 2025,
-    "titulo": "Programas de lectura crítica en la universidad II",
-    "carrera": "Educación Secundaria",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
-  },
-  {
-    "docente": "José Paredes",
-    "anio": 2025,
-    "titulo": "Modelado matemático aplicado a la biotecnología II",
-    "carrera": "Ciencias Matemáticas",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
-  },
-  {
-    "docente": "Luisa Ramírez",
+    "docente": "Dra. María Magdalena Huerta Flores",
     "anio": 2024,
-    "titulo": "Análisis del impacto ambiental en proyectos mineros II",
-    "carrera": "Ingeniería Ambiental",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
+    "titulo": "CRECIENDO CON AUTONOMÍA: IMPACTO DE LA ENSEÑANZA NO DIRECTIVA EN LA PERSONALIDAD INFANTIL.",
+    "carrera": "Educación Inicial",
+    "enlace": "https://dialnet.unirioja.es/servlet/articulo?codigo=9854197",
+    "tipo":"libro"
   },
   {
-    "docente": "Fernando Gómez",
+    "docente": "Dra. María Magdalena Huerta Flores",
     "anio": 2024,
-    "titulo": "Gamificación como herramienta pedagógica II",
-    "carrera": "Educación Primaria",
-    "enlace": "https://repositorio.uns.edu.pe/bitstream/handle/20.500.14278/5006/Tesis%20-%20Calder%c3%b3n.pdf?sequence=1&isAllowed=y"
+    "titulo": "FORTALECIENDO LA INTELIGENCIA EMOCIONAL ESTRATEGIA DE TUTORÍA EN EDUCACIÓN UNIVERSITARIA.",
+    "carrera": "Educación Inicial",
+    "enlace": "https://dialnet.unirioja.es/servlet/articulo?codigo=9854193",
+    "tipo":"articulo"
+  },
+  {
+    "docente": "Dra. María Magdalena Huerta Flores",
+    "anio": 2024,
+    "titulo": "TEJIENDO IDENTIDADES. UN VIAJE A LA ESENCIA DEL DOCENTE DE EDUCACIÓN BÁSICA EN EL PERÚ.",
+    "carrera": "Educación Inicial",
+    "enlace": "https://dialnet.unirioja.es/servlet/articulo?codigo=9854195",
+    "tipo":"libro"
+  },
+  {
+    "docente": "Dra. María Magdalena Huerta Flores",
+    "anio": 2024,
+    "titulo": "Identidad social del docente de educación básica regular del Perú",
+    "carrera": "Educación Inicial",
+    "enlace": "https://revistavitalia.org/index.php/vitalia/article/view/217/314",
+    "tipo":"articulo"
+  },
+  {
+    "docente": "Dra. María Magdalena Huerta Flores",
+    "anio": 2024,
+    "titulo": "Tutoría Universitaria - Mentoría en la Inteligencia emocional",
+    "carrera": "Educación Inicial",
+    "enlace": "https://revistavitalia.org/index.php/vitalia/article/view/221",
+    "tipo":"articulo"
+  },
+  {
+    "docente": "Dra. Annie Rosa Soto Zavaleta",
+    "anio": 2024,
+    "titulo": "FELICIDAD LABORAL Y DESEMPEÑO EN DOCENTES.",
+    "carrera": "Educación Inicial",
+    "enlace": "https://ve.scielo.org/pdf/crihect/v10n18/2542-3029-crihect-10-18-4.pdf",
+    "tipo":"articulo"
   }
 ]

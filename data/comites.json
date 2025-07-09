@@ -1,0 +1,239 @@
+[
+  {
+    "carrera": "Educación Inicial",
+    "miembros": [
+      { "rol": "PRESIDENTA", "nombre": "Dra. Mary Juana Alarcón Neira" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. María Magdalena Huerta Flores" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Annie Rosa Soto Zavaleta" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Jessica Natalí Gallardo Ramírez" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Sherlin Magdali Matos Bonifacio" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Fernanda Karilia Cerna Perez" }
+    ]
+  },
+  {
+    "carrera": "Biotecnología",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Dr. William Robert Capa Robles" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Angel Pablo Castro Alvarado" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Carlos Alberto Azañero Diaz" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Jose Manuel Villanueva Carlos" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Eterio Amaranto Alva Muñoz" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Victor Eduardo Lecca Zavaleta" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Linda Eddy Espejo Vargas" }
+    ]
+  },
+  {
+    "carrera": "Medicina",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Med. Esp. Jose Sebastian Castillo Vasquez" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Jorge Luis Solar Rossel" },
+      { "rol": "INTEGRANTE", "nombre": "Med. Esp. Guillermo Alberto Arana Morales" },
+      { "rol": "INTEGRANTE", "nombre": "Med. Esp. Hugo Aurelio Alpaca Salvador" },
+      { "rol": "INTEGRANTE", "nombre": "Med. Esp. Luis Fernando Sanchez Reyna" },
+      { "rol": "INTEGRANTE", "nombre": "Med. Esp. Armando Deivi More Valladares" },
+      { "rol": "INTEGRANTE", "nombre": "Med. Esp. Marcelo Alonso Napan Briones" },
+      { "rol": "INTEGRANTE", "nombre": "Med. Esp. Ander Joel Olivos Lopez" },
+      { "rol": "INTEGRANTE", "nombre": "M.C. Lorenzo Emilio Perez Lujan" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Washington Alfonso Trujillo Ulloa" },
+      { "rol": "INTEGRANTE", "nombre": "Med. Esp. Oscar Lenin Lopez Amaya" },
+      { "rol": "INTEGRANTE", "nombre": "Med. Esp. Carlos Arestegui Ramos" },
+      { "rol": "INTEGRANTE", "nombre": "Med. Esp. Rafael Roberto Beltran Osorio" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Ricardo Segundo Salazar Ramirez" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Cesar Augusto Acevedo Orellano" }
+    ]
+  },
+  {
+    "carrera": "Ingeniería Agrónoma",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Ms. Wilmer Aquino Minchan" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Walver Keiser Lazaro Rodriguez" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Jose Ismale Perez Cherres" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Santos Herrera Cherres" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Nelida Guillesi Escalante Espinoza" },
+      { "rol": "COLABORADOR", "nombre": "Ms. Alan Rene Fonseca Adrianzén" },
+      { "rol": "COLABORADOR", "nombre": "Ms. Danilo Pacifico Sanchez Castillo" },
+      { "rol": "COLABORADOR", "nombre": "Ms. Fran Ivan Aran Tuesta" },
+      { "rol": "COLABORADOR", "nombre": "Ms. Kevin Concepcion Valverde Poma" }
+    ]
+  },
+  {
+    "carrera": "Derecho",
+    "miembros": [
+      { "rol": "PRESIDENTA", "nombre": "Ms. Rosina Mercedes Gonzales Napuri" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Noel Obdulio Villanueva Contreras" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Milagritos Elizabeth Gutierrez Cruz" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Julio Cesar Cabrera Gonzales" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Eduardo Montenegro Vivar" },
+      { "rol": "INTEGRANTE", "nombre": "Obed Leyva Arevalo" },
+      { "rol": "INTEGRANTE", "nombre": "Adrian Bolaños Cortes" },
+      { "rol": "INTEGRANTE", "nombre": "Giner Oscar Hernandez Olivera" },
+      { "rol": "INTEGRANTE", "nombre": "Bibian Antonella Salas Campos" }
+    ]
+  },
+  {
+    "carrera": "Ingeniería Mecánica",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Ms. Rusber Alberto Risco Ojeda" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Nelver Javier Escalante Espinoza" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Leonidas Lucas Yauri García" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Arquímedes Iparraguirre Lozano" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Luis Carlos Calderón Rodríguez" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Fredesbildo Fidel Ríos Noriega" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Adolfo Víctor Huisa Mendoza" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Ramiro David Carranza Martínez" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Serapio Agapito Quillos Ruiz" },
+      { "rol": "EXTERNO", "nombre": "Dr. Jorge Luis Arévalo Daza" },
+      { "rol": "EXTERNO", "nombre": "Dr. Johnny Prudencio Nahui Ortiz" },
+      { "rol": "EGRESADO", "nombre": "Ms. Rubén Adrián Figueroa León" },
+      { "rol": "EGRESADO", "nombre": "M.Sc. Jhonny Jasson Silva Rodríguez" }
+    ]
+  },
+  {
+    "carrera": "Biología en Acuicultura",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Dr. Juan Fernando Merino Moya" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Luis Fernando Torres Cabrera" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Guillermo Belisario Saldaña Rojas" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Romulo Eugenio Loayza Aguilar" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Eleuterio Lucio Encomendero Yepez" },
+      { "rol": "INTEGRANTE", "nombre": "Blga. Acui. Carmen Gabriela Yzasiga Barrera" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Miriam Noemi Velasquez Guarniz" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Sorayda Mendoza Espinoza" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Juan Miguel Carhuapoma Garay" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Ana Maria Moreno Fernandez" },
+      { "rol": "INTEGRANTE", "nombre": "Blga. Acui. Carmen Rosa Chimbor Mejia" }
+    ]
+  },
+    {
+    "carrera": "Ingeniería Agroindustrial",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Dr. Jorge Marino Dominguez Castañeda" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Elza Berta Aguirre Vargas" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Daniel Ángel Sánchez Vaca" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Sergio Rafael Albitres Abanto" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Any Berenice Córdova Chang" }
+    ]
+  },
+  {
+    "carrera": "Comunicación Social",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Mg. James Stuard Solis Godoy" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Manuel Baltasar Sarango Ibañez" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Esmila Calderon Reyes" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Jessica Yovana Alava Cielo" },
+      { "rol": "INTEGRANTE", "nombre": "Lic. Julio César Escalante Tarazona – Administrativo" },
+      { "rol": "INTEGRANTE", "nombre": "Sra. Ruth Consuelo Sánchez Quiroz – Secretaria EPCS" },
+      { "rol": "ESTUDIANTE", "nombre": "Gilmer Junior Zelada Lopez-DG" },
+      { "rol": "ESTUDIANTE", "nombre": "Cielo Lhiessel Rupay Vergaray-D" },
+      { "rol": "EGRESADO", "nombre": "Pool Angelo Messarina Azañedo" },
+      { "rol": "EGRESADO", "nombre": "Gesabell Vanezza Garcia Valencia" }
+    ]
+  },
+    {
+    "carrera": "Enfemeria",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Mg. Irene Beatriz Pinto Flores" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Margarita Huañap Guzman" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Juan Miguel Ponce Loza" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Isabel Matilde Morgan Zavaleta" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Yolanda Micaela Rodriguez Barreto" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Dana Melva Navarro Arroyo" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Deysi Elizabeth Vargas Gutierrez" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Esperanza Doraliza Melgarejo Valverde" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Luz Carmen Serrano Valderrama" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Ines Concepcion Rosas Guzman" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Luz Fenitida Falla Juarez" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Betsi Margaret Pozo Cusma" }
+    ]
+  },
+  {
+    "carrera": "Educación Secundaria: Idiomas",
+    "miembros": [
+      { "rol": "PRESIDENTA", "nombre": "Dra. Lila Marisa Maguiña Alvarado" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Betty Clara Risco Rodríguez" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Dora Concepción Calvo Gastañaduy" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Marilú Flor Plasencia Rubio" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Juan Carlos Rivera Altamirano" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Luis Leiva Cilio" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Christopher Antony Mariño Azaña" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Danitza Verónica Escudero Moreno" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Estefany Sara Marcelo Ureña" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Lesli Dayana Narro Dolores" },
+      { "rol": "INTEGRANTE", "nombre": "Egr. Karina Aurora Huanca Alva" },
+      { "rol": "INTEGRANTE", "nombre": "Egr. Carlos Eduardo Saldaña Paico" },
+      { "rol": "INTEGRANTE", "nombre": "Egr. Jackeline Steysi Mauricio Osorio" },
+      { "rol": "INTEGRANTE", "nombre": "Egr. Edher Rudy Paredes Dulce" }
+    ]
+  },
+  {
+    "carrera": "Educación Secundaria: Historia, Geografía y Ciencias Sociales",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Dr. Ángel Javier Mucha Paitán" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Bertha Elizabeth Ramírez Romero" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Wilfredo Contreras Aranda" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Brinelda Liliana Julca Castillo" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. William Chávez Quispe" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Andrés Alejandro Ángeles Bustos" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Robinsson Ramos Zevallos" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Juan Esteban Bravo Ignacio" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Jhostin Shande Reyes Chuquimango" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Ariana Dayanara Cano Reyes" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Britney Spears Jhenifer Esthefanny Pereda Armas" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Jean Paul Varas Noriega" },
+      { "rol": "INTEGRANTE", "nombre": "Egres. Pamela Mercedes Queravalú Abanto" },
+      { "rol": "INTEGRANTE", "nombre": "Egres. José Augusto Silva Huertas" },
+      { "rol": "INTEGRANTE", "nombre": "Egres. Yerson Henrry Salinas Alayo" }
+    ]
+  },
+  {
+    "carrera": "Ingeniería de Sistemas e Informática",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Dr. Juan Pablo Sánchez Chávez" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Carlos Eugenio Vega Moreno" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Guillermo Edward Gil Albarrán" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Mirko Martin Manrique Ronceros" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Pedro Glicerio Manco Pulido" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Luis Enrique Ramírez Milla" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Yim Isaías Apestegui Florentino" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Lizbeth Dora Briones Pereyra" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Walter Jesús Escalante Espinoza" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Dayan Fernando Macedo Alcántara" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Carlos Alfredo Mendoza Corpus" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Alfredo Daza Vergaray" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Whiston Kendrick Borja Reyna" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Carlos Alfredo Gil Narvaez" }
+    ]
+  },
+  {
+    "carrera": "Ingeniería en Energía",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Ms. Julio Hipólito Néstor Escate Ravello" },
+      { "rol": "SECRETARIO", "nombre": "Ms. Robert Fabián Guevara Chinchayán" },
+      { "rol": "SUBSECRETARIO", "nombre": "Dr. Denis Javier Arangurí Cayetano" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Gilmer Juan Luján Guevara" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Hugo Rolando Calderón Torres" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Amancio Ramiro Rojas Flores" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Edgar Paz Pérez" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Segundo Nicolás Diestra Sánchez" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Roberto Carlos Chucuya Huallpachoque" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Cesar Luis López Aguilar" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Oscar Fernando Pérez Pinedo" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Ricardo Antonio Cedrón Maguiña" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Carlos Macedonio Montañez Montenegro" },
+      { "rol": "INTEGRANTE", "nombre": "Ms. Germán Raúl Chumpitaz Ayala" },
+      { "rol": "INTEGRANTE", "nombre": "Ing. Neil Anthony Velásquez Díaz" }
+    ]
+  },
+  {
+    "carrera": "Educación Primaria",
+    "miembros": [
+      { "rol": "PRESIDENTE", "nombre": "Dr. Juan Benito Zavaleta Cabrera" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Maribel Enaida Alegre Jara" },
+      { "rol": "INTEGRANTE", "nombre": "Mg. Julissa Olinda de la Cruz Muñoz" },
+      { "rol": "INTEGRANTE", "nombre": "Dra. Norma Edith Castillo Ramos" },
+      { "rol": "INTEGRANTE", "nombre": "Dr. Saúl Edgar Paredes Gavidia" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Leidy del Rocio Caballero Corzo (V Ciclo)" },
+      { "rol": "INTEGRANTE", "nombre": "Est. Andy Jefferson Comesaña Pereda (VII Ciclo)" }
+    ]
+  }
+]

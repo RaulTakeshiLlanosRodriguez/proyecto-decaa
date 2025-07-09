@@ -40,8 +40,12 @@ function obtenerColorCarrera(nombreCarrera) {
 }
 
 function renderizarPublicaciones() {
+  const loader = document.getElementById('loader-investigaciones');
   const contenedor = document.getElementById('listado-publicaciones');
   contenedor.innerHTML = '';
+
+  loader.style.display = 'flex';
+  contenedor.style.display = 'none';
 
   const tipoFiltro = document.getElementById('tipo-filtro').value;
   const textoFiltro = document.getElementById('filtro-texto').value.toLowerCase();
@@ -60,7 +64,8 @@ function renderizarPublicaciones() {
   const inicio = (paginaActual - 1) * publicacionesPorPagina;
   const publicacionesPagina = filtradas.slice(inicio, inicio + publicacionesPorPagina);
 
-  publicacionesPagina.forEach(pub => {
+  try{
+    publicacionesPagina.forEach(pub => {
     const color = obtenerColorCarrera(pub.carrera);
     const div = document.createElement('div');
     div.classList.add('publicacion');
@@ -73,6 +78,13 @@ function renderizarPublicaciones() {
     `;
     contenedor.appendChild(div);
   });
+  }catch (error) {
+    console.error("Error al cargar comités:", error);
+    loader.innerHTML = `<p>Error al cargar los comités. Intente nuevamente.</p>`;
+  } finally {
+    loader.style.display = 'none';
+    contenedor.style.display = 'block';
+  }
 
   document.getElementById('pagina-actual').textContent = `${paginaActual} / ${totalPaginas || 1}`;
   document.getElementById('prev-page').disabled = paginaActual === 1;
